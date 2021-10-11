@@ -17,7 +17,7 @@ void swab(int i, int j) {
     strcpy(tw, a[i]);strcpy(a[i], a[j]);strcpy(a[j], tw);
 }
 
-void chsort() { //这里有小问题，排序方向不太对劲
+void chsort() { 
     int i, j, f = 1;
     for (i = 0;f && i <= t;i++)
         for (j = 0;j < t - i;j++) {
