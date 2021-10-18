@@ -17,7 +17,6 @@ void pr(int n) {
     }
 }
 
-
 int scf(int o) {
     o /= 2;
     int i = 0, j = t, m;
